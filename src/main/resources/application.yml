@@ -23,3 +23,7 @@ spring:
 
 server:
   port: 9999
+twilio:
+  account-sid: AC4df2570cc6976cc0f288df8d5ac98ef8
+  auth-token: f1ca91f901c4e1dd82b89b7ff3d58299
+  phone-number: +15673716166
