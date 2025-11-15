@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: E-Commerce-Mono-App
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommerce
+    username: root
+    password: Ashu@2002
+    
+  jpa:
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: springbootdemo118@gmail.com
+    password: kohqqxtpublszqwl
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          timeout: 5000
+
+server:
+  port: 9999
+twilio:
+  account-sid: AC4df2570cc6976cc0f288df8d5ac98ef8
+  auth-token: f1ca91f901c4e1dd82b89b7ff3d58299
+  phone-number: +15673716166
